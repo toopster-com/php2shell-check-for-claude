@@ -51,7 +51,7 @@ export function parseVersion(text) {
 export function versionFromHeaders(headers) {
   for (const value of [headers.poweredBy, headers.server]) {
     if (!value) continue
-    const m = String(value).match(/PHP\/(\d+\.\d+\.\d+[^\s,;]*)/i)
+    const m = String(value).match(/PHP\/(\d+\.\d+\.\d+[^\s,;()]*)/i)
     if (m) return m[1]
   }
   return null
@@ -72,7 +72,7 @@ function isPrerelease(suffix) {
 // lower number alone does not prove the build is affected. (Red Hat style builds keep the plain upstream number and
 // cannot be recognised this way; the documentation says so.)
 function isVendorBuild(suffix) {
-  return suffix !== '' && !isPrerelease(suffix)
+  return /^[-+~.]/.test(suffix) && !isPrerelease(suffix)
 }
 
 const TRACKER_HINT = `check your distribution's security tracker for ${ADVISORY.cves.join(' and ')}. Until it shows a fixed package that you have installed, treat the system as affected.`

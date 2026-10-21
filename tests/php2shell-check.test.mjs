@@ -292,6 +292,11 @@ describe('evaluate: distribution package suffixes', () => {
 // ---------------------------------------------------------------------------------------------------------------------
 
 describe('versionFromHeaders', () => {
+  it('stops the version at a closing parenthesis, as in "(PHP/8.4.26)"', () => {
+    assert.equal(versionFromHeaders({ poweredBy: null, server: 'Apache (PHP/8.4.26)' }), '8.4.26')
+    assert.equal(evaluate(versionFromHeaders({ poweredBy: null, server: 'Apache (PHP/8.4.26)' })).status, 'affected')
+  })
+
   it('reads PHP/x.y.z from X-Powered-By', () => {
     assert.equal(versionFromHeaders({ poweredBy: 'PHP/8.3.12', server: null }), '8.3.12')
   })

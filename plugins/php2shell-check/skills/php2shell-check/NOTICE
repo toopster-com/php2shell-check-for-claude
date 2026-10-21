@@ -1,0 +1,6 @@
+php2shell-check
+Copyright 2026 toopster UG (haftungsbeschränkt)
+
+This product is an independent implementation inspired by openai/php2shell-checker
+(https://github.com/openai/php2shell-checker, Apache License 2.0). No code from that
+project is included.
