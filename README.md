@@ -1,4 +1,4 @@
-# php2shell-check
+# claude-php2shell-check
 
 A passive check for Claude whether a website or server runs a PHP version affected by **PHP2Shell** (CVE-2026-109618 and CVE-2026-109619). Works as a Claude Code plugin, as a skill on claude.ai and as a plain command line tool.
 
