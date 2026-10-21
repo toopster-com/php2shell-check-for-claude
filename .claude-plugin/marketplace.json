@@ -1,0 +1,17 @@
+{
+  "name": "toopster",
+  "owner": {
+    "name": "toopster UG (haftungsbeschränkt)",
+    "url": "https://toopster.com"
+  },
+  "description": "Plugins for Claude Code published by toopster UG.",
+  "plugins": [
+    {
+      "name": "php2shell-check",
+      "source": "./plugins/php2shell-check",
+      "description": "Passive check whether a website or server runs a PHP version affected by PHP2Shell (CVE-2026-109618, CVE-2026-109619).",
+      "version": "1.0.0",
+      "category": "security"
+    }
+  ]
+}

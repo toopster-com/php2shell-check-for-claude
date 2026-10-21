@@ -1,0 +1,14 @@
+{
+  "name": "php2shell-check",
+  "displayName": "PHP2Shell check",
+  "version": "1.0.0",
+  "description": "Passive check whether a website or server runs a PHP version affected by PHP2Shell (CVE-2026-109618, CVE-2026-109619). Reads version headers or php -v, never sends exploit requests.",
+  "author": {
+    "name": "toopster UG (haftungsbeschränkt)",
+    "url": "https://toopster.com"
+  },
+  "homepage": "https://github.com/toopster-com/php2shell-check",
+  "repository": "https://github.com/toopster-com/php2shell-check",
+  "license": "Apache-2.0",
+  "keywords": ["php", "security", "php2shell", "cve-2026-109618", "cve-2026-109619"]
+}
