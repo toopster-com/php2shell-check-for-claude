@@ -7,8 +7,8 @@
     "name": "toopster UG (haftungsbeschränkt)",
     "url": "https://toopster.com"
   },
-  "homepage": "https://github.com/toopster-com/php2shell-check",
-  "repository": "https://github.com/toopster-com/php2shell-check",
+  "homepage": "https://github.com/toopster-com/php2shell-check-for-claude",
+  "repository": "https://github.com/toopster-com/php2shell-check-for-claude",
   "license": "Apache-2.0",
   "keywords": ["php", "security", "php2shell", "cve-2026-109618", "cve-2026-109619"]
 }

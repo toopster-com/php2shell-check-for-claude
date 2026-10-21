@@ -5,7 +5,7 @@ license: Apache-2.0
 compatibility: Needs Node.js 20 or newer. Website checks need network access to the site.
 metadata:
   version: "1.0.0"
-  source: "https://github.com/toopster-com/php2shell-check"
+  source: "https://github.com/toopster-com/php2shell-check-for-claude"
 ---
 
 # PHP2Shell check

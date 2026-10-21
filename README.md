@@ -1,4 +1,4 @@
-# claude-php2shell-check
+# php2shell-check for Claude
 
 A passive check for Claude whether a website or server runs a PHP version affected by **PHP2Shell** (CVE-2026-109618 and CVE-2026-109619). Works as a Claude Code plugin, as a skill on claude.ai and as a plain command line tool.
 
@@ -28,14 +28,14 @@ Results:
 ### Claude Code
 
 ```
-/plugin marketplace add toopster-com/php2shell-check
+/plugin marketplace add toopster-com/php2shell-check-for-claude
 /plugin install php2shell-check@toopster
 ```
 
 Or from a terminal:
 
 ```
-claude plugin marketplace add toopster-com/php2shell-check
+claude plugin marketplace add toopster-com/php2shell-check-for-claude
 claude plugin install php2shell-check@toopster
 ```
 
@@ -43,7 +43,7 @@ Then ask Claude, for example: "Is https://example.com affected by PHP2Shell?" or
 
 ### claude.ai
 
-Download `php2shell-check.zip` from the [latest release](https://github.com/toopster-com/php2shell-check/releases/latest) and upload it under Customize > Skills > "+" > "+ Create skill" > "Upload a skill". Code execution must be switched on in your settings. The code environment on claude.ai usually cannot reach arbitrary websites, so on claude.ai the skill mostly works with a version number you give it (for example from your hosting panel).
+Download `php2shell-check.zip` from the [latest release](https://github.com/toopster-com/php2shell-check-for-claude/releases/latest) and upload it under Customize > Skills > "+" > "+ Create skill" > "Upload a skill". Code execution must be switched on in your settings. The code environment on claude.ai usually cannot reach arbitrary websites, so on claude.ai the skill mostly works with a version number you give it (for example from your hosting panel).
 
 ### Command line, without Claude
 
@@ -107,11 +107,11 @@ toopster is a platform for construction tenders in Germany. Builders publish a t
 **Installation in Claude Code:**
 
 ```
-/plugin marketplace add toopster-com/php2shell-check
+/plugin marketplace add toopster-com/php2shell-check-for-claude
 /plugin install php2shell-check@toopster
 ```
 
-Danach Claude einfach fragen, etwa: „Ist https://example.com von PHP2Shell betroffen?“ Für claude.ai die Datei `php2shell-check.zip` aus dem [neuesten Release](https://github.com/toopster-com/php2shell-check/releases/latest) unter Customize > Skills über „+“, „Create skill“ und „Upload a skill“ hochladen.
+Danach Claude einfach fragen, etwa: „Ist https://example.com von PHP2Shell betroffen?“ Für claude.ai die Datei `php2shell-check.zip` aus dem [neuesten Release](https://github.com/toopster-com/php2shell-check-for-claude/releases/latest) unter Customize > Skills über „+“, „Create skill“ und „Upload a skill“ hochladen.
 
 **Bitte nur eigene Systeme prüfen** oder solche, für die eine Erlaubnis vorliegt.
 

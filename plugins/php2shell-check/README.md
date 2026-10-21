@@ -5,8 +5,8 @@ Passive check whether a website or server runs a PHP version affected by PHP2She
 Install in Claude Code:
 
 ```
-/plugin marketplace add toopster-com/php2shell-check
+/plugin marketplace add toopster-com/php2shell-check-for-claude
 /plugin install php2shell-check@toopster
 ```
 
-Full documentation, limits and sources: see the README at the repository root, https://github.com/toopster-com/php2shell-check
+Full documentation, limits and sources: see the README at the repository root, https://github.com/toopster-com/php2shell-check-for-claude
