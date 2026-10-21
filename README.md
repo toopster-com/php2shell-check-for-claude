@@ -68,6 +68,8 @@ Add `--json` for machine-readable output.
 
 Check only systems you are responsible for or have permission to check. The skill tells Claude to decline bulk checks of other people's sites.
 
+Found a security problem in this tool? Please report it privately, see [SECURITY.md](SECURITY.md).
+
 ## Tests
 
 ```

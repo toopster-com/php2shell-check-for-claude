@@ -12,6 +12,20 @@ Check only systems you are responsible for or have permission to check.
 - Nothing is sent to toopster or anyone else. No telemetry, nothing is stored or written to disk.
 - The script is plain, readable JavaScript for Node.js 20 or newer, with no dependencies and no downloads.
 
+## Examples
+
+- "Is https://example.com affected by PHP2Shell?"
+- "Check the PHP version on this server for PHP2Shell."
+- "My hosting panel says PHP 8.3.30. Do I need to update because of PHP2Shell?"
+
+## Privacy
+
+The plugin collects, stores and sends no personal data and has no server of its own. The only network request goes to the website you name, as described above.
+
+## Support and security reports
+
+Questions and wrong results: [GitHub Issues](https://github.com/toopster-com/php2shell-check-for-claude/issues). Security problems: privately through "Report a vulnerability" in the [Security tab](https://github.com/toopster-com/php2shell-check-for-claude/security), see [SECURITY.md](https://github.com/toopster-com/php2shell-check-for-claude/blob/main/SECURITY.md).
+
 ## Install in Claude Code
 
 ```
